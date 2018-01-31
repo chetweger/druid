@@ -41,7 +41,7 @@ public class ParametrizedUriEmitterModule implements Module
   public void configure(Binder binder)
   {
     JsonConfigProvider.bind(binder, "druid.emitter.parametrized", ParametrizedUriEmitterConfig.class);
-    HttpEmitterModule.configureSsl(binder);
+    //HttpEmitterModule.configureSsl(binder);
   }
 
   @Provides
